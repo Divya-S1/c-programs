@@ -2,13 +2,13 @@
 #include<stdio.h>
 #include<math.h>
 void main()
-{
+    {
 	int ch;
 	float r,a,b;
 	printf("Enter your choice\n1.circle\n2.rectangle\n3.triangle\n");
 	scanf("%d",&ch);
 	switch(ch)
-	{
+	     {
 		case 1:
 		printf("Enter the radius of circle");
 		scanf("%f",&r);
@@ -26,5 +26,5 @@ void main()
 		break;
 		default:printf("Invalid choice");
 		break;
-	}
-}
+	    }
+     }
